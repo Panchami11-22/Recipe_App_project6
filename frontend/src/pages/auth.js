@@ -29,7 +29,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      const result = await axios.post("https://recipe-app-kh93.onrender.com/auth/login", {
+      const result = await axios.post("https://recipe-app-project6.onrender.com/auth/login", {
         username,
         password,
       });
@@ -80,7 +80,7 @@ const Register = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post("https://recipe-app-kh93.onrender.com/auth/register", {
+      await axios.post("https://recipe-app-project6.onrender.com/auth/register", {
         username,
         password,
       });
